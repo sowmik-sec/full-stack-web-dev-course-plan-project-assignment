@@ -17,49 +17,49 @@
     "id": "63ecc50ba490c3873cc6f11b",
     "name": "Bootstrap",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png",
-    "duration": 0,
+    "duration": "4",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
     "id": "63ecc50b1985d3f23a0ef0ec",
     "name": "Tailwind CSS",
     "img": "data:image/png;base64,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",
-    "duration": 0,
+    "duration": "4",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
     "id": "63ecc50ba69541a95842fbaa",
     "name": "Javascript",
     "img": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg",
-    "duration": 0,
+    "duration": "15",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
     "id": "63ecc50b2f1f2a86aa878c90",
     "name": "API",
     "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPkAAADKCAMAAABQfxahAAABEVBMVEX////r7vJESWYAv/Ph5ukGocvw8/c7QF+cn609Q2GBhJX+0QD09vj7ViL7/PwAvfN5fpDf4ug1O1xfZHy2usOytL708fIAnMk7QWDIy9T3/v85xPPK5fKJjZ7Cxc4xN1mgpLE2SGj/VxwEr942QGn/2AAFptJOU26E1fLg9v0Erdu/6/sCt+mtUEYySGkvPGrT1t1xv9zd6/Jr0/daXnZvcodQSmJeSmFLTmJeWl9TU2DoVCykT0qYhUfivB7wxhK6njZ9TFbxVSVyS1qbTk19cVHKqizbUzJlYFl3bVaNTVJrZFjRryfhVC/SUzcoL1Su3/Kh3PN80vMfJk6p1eZtvds/sdSk4/qQy+G42+nQ8fy9o29LAAAKBElEQVR4nO2cC3ubNhSGi+2AiZ1ikwTj2Al2nDiXZpvrS7s2a9N2W7dua5NmiXP5/z9kIARIIDCWhYk8fU/7tEHg8HKOjo6kg589ExISEhISEhISEhISEhISEhISEhISEspeg/I6PyrvMeOuTizFVLmRaY3rjMjHSoEvqYrEBLys500yt8wJE3Izbw4KWSUG4CX+TF4o6CyiXH0OcjU7lvmkb2dB3u2+ev2q2438toODn9+8NQ+eBH0W5N3CD+cb+xvnvxRwdtV8975yWLn48PZgjjtUTYWJzNDzzoC8+9HGdrT/6VcU3XxzcVhxdFh5lxpdVWtlNtqdKBg7e/LuR5cbsP+KMLyt+DpMi67U6hIzNcfoGJSBzTcQfQoO//S+gqC/SdXXlV2pxFJj5LcyJ+/+sI+Q7//m+bv5+yFCXvmcxujqEVPuUmmA3Ch78nPU5ht//AiPH3yuYEqT/CjbjMmlWmB09t6+v0F0d8zZbXf/M4W7KwPG5KXtYH7BnPwVTr7hk1/g5F9SGN1kTr4V3GnmNvf6OY3N9SZr8ixt3v2KkX/z+/kHLMJV0kQ4pcM2tGfbz7u/YLH9L8/m6t8o+eGHdAM6W/DSwEIcin0m8wkB/xokcT/9g6L/nGo8N2tMjV4/Qj47g0zmtW/0/Y1XyHH1wkc//D1tDjdpssvhto7Qx51F3v76HLDv739Fwe356T9e3v4lfd6ujyc1JpoU8HlVJrPU7l/fPm2cf/sYnqYefPl8Ubl4/06daw2H1bJj6GMzmp//2AV/wzIPDgrqwTxz1OyUDTkPEuSCXJAL8nTkl2wWCZeqSxbkEqNFwuVqwID8ucyjqizI2eXWS5QgF+SCXJALckEuyAW5IOdPglyQC3JBLsgFuSAX5IKcPwny7Mndtd64475IrYtjErQ0crmz66gUPl7aRdXZGmCkctk+uM6wZCTQ0shLlmnL6oQNWNdNRIpumbVm1W+Vx4p90VYWVl8Wudxxi/COwg31SJWUam3WPVR5027W+SaHgBGKKLlTF9SEZ/FPLm/DnWZ1k0iuW650+OKBAiv6+Sev+kX1VhPHAOTKoG6rJNWbnTF4RGatuhrkctOpuwTwaq2KNQFy3evYslzdc51g4P7MO3nVKbVVN0GpsY6/mgLJgwNy07G6Uga03JPXLVCfIYEuvIsZPUIOH9NkJcjlXVD1KFXLYGjDspkouQxcY7wS5JIC/bcO3B3LZtwIh5Hv6f7Azzm5m8U4dnUd+ShCrkfJXc9YiNyIaOnkTl25uV71ope+h5DEeTsDm1+3wrpC2JdALoP3ZqyBTwKjF0KOeXt13Tln4X5utLRiWNrVcsld2mrwFOBgHZBjNgdH4LC/APkwCl4stgKjZ08ug7dHLM/Dfc+PI6+um2AIXNTmDyTy4jLJgfMWvKgmd3TcuyF5FRapyYMaGPlU9wx6cuM7iVxD7itzclAVC01oq1QIMjSfXC13HJV3a5uWm7yWF83bjWuSybX28shlkL2oVb/0sOxmNRh5Ab5eb8KXLpRNilmqAf74P7WI5EGIy97mAGUzqDfdVTEfIMzPVWviP7f05Mb3otZq++wGCbyoHfsnPL+yzz/JjtybmAcLTu6MbezFuDC5alpHW34ATE9uHDv9WvvukxEDXHHkt4/sE7TiYuiJ5OOoTQtoNuOSK7ory5yUm8gSZGpyF9xmGcGf22RyOKwZ7SJsXwg9gRxmolHB8R2Sm3uDpq1BHcR49PqU5B64Y0bH443hNZm8eOXksMHpi6EnkU9UxKKeCn5OF16ZiFyfjhwlcfryQ0uLAbefzPVwiKZ32gLoCeQgi1E6TVwgm4HT9GgONz85Bu7AxWG7zeFWevR4chnkY0fhmnowd7MkVuQh8PlFjR5PXjeBycM3XlKCw4uTLwxOjx5L7mYxZmRHqequ0bAhZwBOjR5vc7RDowLd3wValJwJOC16HLmbxaBTUr8FhPzN6uLkjMAp0WNtfmTZuckkanJ7mL+0B7d/nWymbp+jX8aSj+3my+1YcmbgdOhx5KU9R2Qo0DTw/xcJBZ6a8R/hKCZTo5DWYmnzhG3/oCm5NiC5lTwJR3XW6wOd9s5mse8wJM9eyTbv9ddQ9RPhmdo8exmjWPQzHNvVaSy49sgXuSTNw53Arh1TgOdLTvb30xhuRySfp4pvOZMTg1ycwV31COgU4S1vcsKC2xmK2Wig/8R4vPaCCjzvSsBhPHijf//Qlg3DGLZvbhH4fgj8mg48b3IjtKcQcE8fgk1E2ZDu+w2y1ek6+RMgx3t6wN02Qica9z463tfpennu5PjA5gW3xkvCfMEY+rEPjfB0Q1r+5Feoyb1O3rgxiCfLUw8de178kTvlACOCr8eBI+iov1MlcLmROwH76niEj2k9CH4fB26rTzC6Vhwd3z3OPVHNhXw4KmpaZBkVQk0TwKV2gziqO5+mte6ePDmpIsI3+dow8VIvwhM+oKhdPXVycrren+3rjgjh3ddcY/vTIYdIM671jN4nfQSf5GdwJJ9hcmlIGti4Jnfnpo2HWRcb03h355O8nyK+OTLuV408xZAGr24Qknf+yW9nkw8bpBGdd/KZY5rkhzhScOeSHM5WUpBLK0b+/7X5HP18NclTxPbVjHAzk1d7jn6zaqMazOHasy42Xq5aJtNLG9xXLm+Hw1p/Vvncw8rN1WBHb9zMqCKDE5Yel+TkPVTo7v3EK+WHpDWZuZajciFvtwjLcJ7Rk3v6Gnk0Bwtx8+0z5bT2OnwBll4xerh73GgnVJjcrkUju/0MW6O7F/Muvua23g7evRti686QKn6O7q8/oibX7rjcRcb2WLzV1/6Q7PDB1hrm6VTceZPH7KutPRDRX3rgPdTknO6rhaoBPfLGvRTu7EZ76oFj4Y26xD1vm+Nju1840OjfoC8zycbQN3gorvO6fy6FykW8rg5KJtpD+Bby8GaKFE3gV8w3iD8ZciPyxkqAbsOvTae3t9NpHy2UiaSttO6eb23UVTSPxUqEoiLk663n/JGH64NcJZWF9QjnayM6o+dJTnwJE/d43ODk4lfKrp6f0RPq24llkPFFv5RdPTf0xFrnXtjnTxOKnSnrP232ai6aVd9+durR92cWuNOWhuWjR2bvNNCnMzkpvr59TtGWvuYnRuj8gTNC5xGcCTqf4AzQeQVfGJ1f8DA6YU0WJ8WbeQbH0bXRzl38u/ea1np8RJv5BkfR3frNxxEJ25mZOPn5DnI65+A+uv8VMTHZnZep3WmrAg7Rg1XUnZjvk/HaT0DJ8CqAP3t2bUcuBITs7Mex5/OsnUd0uhXzvVHIGSePdGtQT13Er9KhfW2DK90RyfmahNPpBTHE5X1Xy9AJ8Xsg876rpYj03Z+0myl86QRUVWCi3TPlTjsh5X0/QkJCQkJCQkJCQkJCQkJCQkJCQkJCmP4D5IS1Wuy4CUUAAAAASUVORK5CYII=",
-    "duration": 0,
+    "duration": "8",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
     "id": "63ecc50be18abef3ed8ec893",
     "name": "React",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-    "duration": 0,
+    "duration": "15",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
     "id": "63ecc50be137f17fa674345b",
     "name": "Node",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png",
-    "duration": 0,
+    "duration": "12",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
     "id": "63ecc50be137f17fa674345c",
     "name": "MongoDB",
     "img": "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
-    "duration": 0,
+    "duration": "6",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   }
 ]

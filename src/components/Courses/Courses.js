@@ -10,7 +10,7 @@ const Courses = (props) => {
       <div className="course-detail">
         <h3>{name}</h3>
         <p>{lorem}</p>
-        <p>Time required: {duration}hours</p>
+        <p>Time required: {duration} hours</p>
         <button className="btn-list">
           <p>Add to list</p>
         </button>
