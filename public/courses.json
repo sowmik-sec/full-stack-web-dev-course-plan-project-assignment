@@ -2,7 +2,7 @@
   {
     "id": "63ecc50bacbdd3873bacbda0",
     "name": "HTML",
-    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHTML&psig=AOvVaw3Lx4-u3iN3L8RFsUArrDH5&ust=1676547791353000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCODm9a25l_0CFQAAAAAdAAAAABAE",
+    "img": "https://repository-images.githubusercontent.com/486226419/99587ec7-b54b-4ccc-9d8e-eae9cbbc6f9e",
     "duration": "5",
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
@@ -56,7 +56,7 @@
     "lorem": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint"
   },
   {
-    "id": "63ecc50be137f17fa674345b",
+    "id": "63ecc50be137f17fa674345c",
     "name": "MongoDB",
     "img": "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
     "duration": 0,

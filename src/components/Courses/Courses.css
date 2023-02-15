@@ -1,0 +1,24 @@
+.course {
+  height: 500px;
+  width: 300px;
+  margin: 20px 5px;
+  background-color: white;
+  border-radius: 15px;
+  /* border: 2px solid; */
+  /* margin: 20px; */
+}
+.courses img {
+  height: 260px;
+  width: 260px;
+  border-radius: 30px;
+}
+.course-detail {
+  padding: 0 10px;
+}
+
+.btn-list {
+  width: 100%;
+  color: white;
+  background-color: rgb(52, 162, 206);
+  border: 0;
+}
