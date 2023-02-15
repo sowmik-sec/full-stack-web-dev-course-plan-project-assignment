@@ -12,11 +12,16 @@ const Dashboard = () => {
   }, []);
   return (
     <div className="dashboard">
-      <div className="courses">
-        <h1>Full stack web developing learning.</h1>
-        {courses.map((course) => (
-          <Courses key={course.id} course={course}></Courses>
-        ))}
+      <div className="course-section">
+        <div>
+          <h1 className="title">Full stack web developing learning.</h1>
+          <h3>Select which course you want to take</h3>
+        </div>
+        <div className="courses">
+          {courses.map((course) => (
+            <Courses key={course.id} course={course}></Courses>
+          ))}
+        </div>
       </div>
       <div className="course-detail"></div>
     </div>
