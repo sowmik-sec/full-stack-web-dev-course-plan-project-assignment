@@ -2,7 +2,8 @@ import "./Courses.css";
 
 const Courses = (props) => {
   const { name, img, duration, id, lorem } = props.course;
-  //   console.log("fuck");
+  const { durationClickHandle } = props;
+  //   console.log(durationClickHandle);
   //   console.log(props);
   return (
     <div className="course">
@@ -11,7 +12,10 @@ const Courses = (props) => {
         <h3>{name}</h3>
         <p>{lorem}</p>
         <p>Time required: {duration} hours</p>
-        <button className="btn-list">
+        <button
+          onClick={() => durationClickHandle({ duration })}
+          className="btn-list"
+        >
           <p>Add to list</p>
         </button>
       </div>

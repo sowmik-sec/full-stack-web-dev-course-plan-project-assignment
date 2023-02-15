@@ -2,7 +2,7 @@ import "./User.css";
 import React, { useEffect, useState } from "react";
 import { loadLocalStorage } from "../../utilities/loadStorage";
 
-const User = ({ name, location, img }) => {
+const User = ({ name, location, img, duration }) => {
   const [breakTime, setBreakTime] = useState(10);
   useEffect(() => {
     const ls = loadLocalStorage();
@@ -43,6 +43,9 @@ const User = ({ name, location, img }) => {
         <button onClick={() => handleBreakTime(50)} className="time-min">
           <p>50</p>
         </button>
+      </div>
+      <div>
+        <h3>Total duration: {duration} hours</h3>
       </div>
       <div className="break-time">
         <div>

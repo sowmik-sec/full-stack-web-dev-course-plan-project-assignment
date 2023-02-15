@@ -3,14 +3,26 @@ import "./Dashboard.css";
 import { useEffect, useState } from "react";
 import Courses from "../Courses/Courses";
 import User from "../User/User";
-
+let countDown = 0;
 const Dashboard = () => {
   const [courses, setCourses] = useState([]);
+  const [duration, setDuration] = useState(0);
+
   useEffect(() => {
     fetch("courses.json")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
+  useEffect(() => {
+    setDuration(5);
+  }, []);
+  const durationClickHandle = (duration) => {
+    let time = parseInt(duration.duration);
+    countDown += time;
+    setDuration(countDown);
+    console.log("fasdfasdf", typeof duration.duration);
+  };
+
   return (
     <div className="dashboard">
       <div className="course-section">
@@ -20,7 +32,11 @@ const Dashboard = () => {
         </div>
         <div className="courses">
           {courses.map((course) => (
-            <Courses key={course.id} course={course}></Courses>
+            <Courses
+              key={course.id}
+              course={course}
+              durationClickHandle={durationClickHandle}
+            ></Courses>
           ))}
         </div>
       </div>
@@ -31,6 +47,7 @@ const Dashboard = () => {
           img={
             "https://media.licdn.com/dms/image/C5603AQFAxOpn9OGohA/profile-displayphoto-shrink_200_200/0/1648402343523?e=1681948800&v=beta&t=dGvAOK--5cBI6ZLLIvBGQMmzLMBPCwdkvfgUOPksmkQ"
           }
+          duration={duration}
         ></User>
       </div>
     </div>
