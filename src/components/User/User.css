@@ -1,0 +1,31 @@
+.user-section {
+  position: sticky;
+  top: 0;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.user img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.break-min {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(194, 204, 204);
+  padding: 10px;
+}
+.time-min {
+  border-radius: 50%;
+  background-color: white;
+  padding: 0 10px;
+}
+.break-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
