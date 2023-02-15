@@ -1,11 +1,18 @@
 import "./User.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { loadLocalStorage } from "../../utilities/loadStorage";
 
 const User = ({ name, location, img }) => {
-  const [breakTime, setBreakTime] = useState(0);
+  const [breakTime, setBreakTime] = useState(10);
+  useEffect(() => {
+    const ls = loadLocalStorage();
+    if (ls != null) {
+      setBreakTime(ls);
+    }
+  }, []);
   const handleBreakTime = (time) => {
-    // console.log(`fuck! I'm clicked!`, time);
     setBreakTime(time);
+    localStorage.setItem("break-time", JSON.stringify(time));
   };
   return (
     <div className="user-section">
@@ -41,7 +48,7 @@ const User = ({ name, location, img }) => {
         <div>
           <h3>Break Time</h3>
         </div>
-        <div>{breakTime}</div>
+        <div>{breakTime} mins</div>
       </div>
     </div>
   );
