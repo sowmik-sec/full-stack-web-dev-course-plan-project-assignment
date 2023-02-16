@@ -1,6 +1,8 @@
 import "./User.css";
 import React, { useEffect, useState } from "react";
 import { loadLocalStorage } from "../../utilities/loadStorage";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const User = ({ name, location, img, duration }) => {
   const [breakTime, setBreakTime] = useState(10);
@@ -13,6 +15,9 @@ const User = ({ name, location, img, duration }) => {
   const handleBreakTime = (time) => {
     setBreakTime(time);
     localStorage.setItem("break-time", JSON.stringify(time));
+  };
+  const notify = () => {
+    toast.success("Your courses selected successfully");
   };
   return (
     <div className="user-section">
@@ -53,6 +58,10 @@ const User = ({ name, location, img, duration }) => {
         </div>
         <div>{breakTime} mins</div>
       </div>
+      <button onClick={notify} className="activity">
+        <p>Activity Completed</p>
+      </button>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
